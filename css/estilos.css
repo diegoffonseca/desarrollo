@@ -64,7 +64,7 @@ text-align: center;
 header
 {
 
-	
+
 background: #FFFFFF; 
 border-radius: 0.5em;
 margin: 0.20em auto;
@@ -350,5 +350,26 @@ height: 3em;
 
 text-align: justify;
 
+
+}
+
+.logo{
+display: block;
+float: left;
+
+
+}
+
+.logo1{
+display: block;
+margin-left: 10em;
+
+
+
+}
+
+.titp{
+display: block;
+width: 30em;
 
 }

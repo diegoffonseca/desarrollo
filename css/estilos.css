@@ -61,8 +61,10 @@ color: #000000;
 margin: 0.20em auto;
 text-align: center;
 }
-header,footer
+header
 {
+
+	
 background: #FFFFFF; 
 border-radius: 0.5em;
 margin: 0.20em auto;
@@ -71,6 +73,24 @@ padding: 0.20em;
 text-align: center;
 clear: both;
 }
+
+
+footer{
+
+background: #FFFFFF; 
+border-radius: 0.5em;
+margin: 0.20em auto;
+max-width: 1240px;
+padding: 0.20em;
+text-align: center;
+clear: both;
+
+
+}
+
+
+
+
 nav
 {
 width: 1240px;

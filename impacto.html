@@ -9,27 +9,28 @@
 </head>
 <body>
 	<header>
-		<h1>SEGURIDAD INFORMATICA</h1>
-		<figure>
-		<table>
-		<td><img src="img/Logo.jpg" alt="logo"></td>
-		<td><img src="img/Logo1.jpg" alt="logo1"></td>
-		</table>
-		</figure>
+		<figure class="logo"><img src="img/logo.png" alt="logo" width="500" height="100"></figure>
+		<figure class="logo"><img src="img/logo1.jpg" width="600" height="250" alt="logo1"></figure>
+	    <div class="titp"><h1>SEGURIDAD INFORMATICA</h1></div>
 	</header>
 	
 	<nav>
 		<ul class="menu">
-			<li><a href="index.html" class="menu">Inicio</a></li>
+					<li><a href="index.html" class="menu">Inicio</a></li>
 			<li><a href="#" class="menu">Lecturas</a>
             <ul>
-            <li><a href="lecturas.html" id="lectura1" class="menu">Conceptos de Seguridad</a></li>
+            <li><a href="lecturas.html" id="lectura1" class="menu">Seguridad Informatica</a></li>
+            <li><a href="concepto.html" id="lectura1" class="menu">Conceptos de Seguridad</a></li>
             <li><a href="proteccion.html" id="lectura2" class="menu">Proteccion de la Informacion </a></li>
             <li><a href="ataques.html" id="lectura1" class="menu">Ataques y Vulnerabilidad</a></li>
             <li><a href="impacto.html" id="lectura2" class="menu">Impacto en la Organizacion</a></li>
             </ul>
             </li>
-			<li><a href="videos.html" class="menu">Multimedia</a></li>
+            <li><a href="videos.html" class="menu">Multimedia</a>
+            <ul>
+            <li><a href="normaiso.html" id="video1" class="menu">Norma ISO 27001:2013</a></li>
+            </ul>
+            </li>
 			<li><a href="actividades.html" class="menu">Actividades</a></li>
 			<li><a href="autores.html" class="menu">Autores</a></li>
 		</ul>
@@ -43,15 +44,40 @@
         <header>
          <h2>IMPACTO EN LA ORGANIZACION</h2>		 
         </header>
-        <figure class="img1" ><img src="img/lecturas/concepto1.jpg" width="300" height="300"></figure>
-           <p class="textoa">
-          La seguridad informática consiste en aquellas prácticas que se llevan adelante respecto de un determinado sistema de computación a fin de proteger y resguardar su funcionamiento y la información en él contenida.
-          Se le dice seguridad informática tanto a la investigación como a la ejecución de políticas de protección de datos en ordenadores por parte de un individuo o equipo de expertos en computación.Las prácticas de este tipo de seguridad son diversas, y a menudo consisten en la restricción del acceso al sistema o a partes del sistema. Estas iniciativas buscan preservar la integridad de la información, tanto como su confidencialidad, disponibilidad e irrefutabilidad.En general, cuando se habla de la seguridad en un sistema informático se hace referencia a los activos (recursos del sistema necesarios para que ése funcione), amenaza (evento, individuo o entidad que presenta un riesgo para el sistema), impacto (medición de las consecuencias de la materialización de un riesgo o amenaza), vulnerabilidad (posibilidad de que una amenaza tenga lugar), ataque, desastre o contigencia.
+        <figure class="img1" ><img src="img/impacto/seguridad.jpg" width="200" height="200"></figure>
+              <h3>ANALISIS DE RIESGOS</h3>
+           <p class="textoz">
+     
+La planificación para la seguridad de la información incluye entre sus primeras fases la
+realización de un análisis de riesgos sobre los activos a proteger. Este análisis tiene como
+objetivo identificar los riesgos, cuantificar su impacto y evaluar el coste para mitigarlos.
+Como ya se mencionó en la sección “Gestión de seguridad de la información” al principio
+del capítulo, el objetivo de la gestión de riesgos no es conseguir un sistema seguro al 100%,
+sino reducir el riesgo a niveles aceptables. Tras la finalización del análisis de riesgos, se
+puede realizar un análisis coste-beneficio (cost-benefit analysis o CBA) que compara el
+coste de implantar las contramedidas con el coste de no utilizar contramedidas.
+Existen muchas categorías de riesgos, como por ejemplo, daño a la información, lo que
+representa una pérdida de integridad; revelación de información, lo que supone una pérdida
+de confidencialidad; o pérdida de información, que es una pérdida de disponibilidad. Por
+otro lado, existen numerosos factores de riesgo, como por ejemplo daño físico, fallos técnicos
+en el funcionamiento, ataques internos o externos, errores humanos o errores de las aplicaciones.
+Cada activo de información analizado posee como mínimo una categoría de riesgo
+asociada a uno o más factores de riesgo, siendo la exposición la posibilidad de que la amenaza
+se materialice. Para reducir esta exposición o mitigar el riesgo se aplican contramedidas.
           </p>
-          
+     
           <p class="textob">
-          La seguridad informática consiste en aquellas prácticas que se llevan adelante respecto de un determinado sistema de computación a fin de proteger y resguardar su funcionamiento y la información en él contenida.
-          Se le dice seguridad informática tanto a la investigación como a la ejecución de políticas de protección de datos en ordenadores por parte de un individuo o equipo de expertos en computación.Las prácticas de este tipo de seguridad son diversas, y a menudo consisten en la restricción del acceso al sistema o a partes del sistema. Estas iniciativas buscan preservar la integridad de la información, tanto como su confidencialidad, disponibilidad e irrefutabilidad.En general, cuando se habla de la seguridad en un sistema informático se hace referencia a los activos (recursos del sistema necesarios para que ése funcione), amenaza (evento, individuo o entidad que presenta un riesgo para el sistema), impacto (medición de las consecuencias de la materialización de un riesgo o amenaza), vulnerabilidad (posibilidad de que una amenaza tenga lugar), ataque, desastre o contigencia.
+
+         Según todos los estudios, las grandes empresas son las más atacadas dentro del campo de
+batalla del mundo digital, si bien en menor medida las pequeñas y medianas son también
+objetivo de los intrusos. El hecho de que más del 80% de los ataques a los sistemas se realice
+en remoto facilita su existencia. Las dos mayores amenazas externas a las que se encuentran
+expuestos los equipos de una organización, tanto servidores como puestos de trabajo, e,
+implícitamente, sus datos, son los hackers y el malware. Por otro lado, tampoco hay que
+perder de vista las amenazas internas procedentes de empleados y personal interno, que
+pueden causar daños mucho más severos en los sistemas informáticos, ya sea de forma deliberada
+o sin intención.
+   
           </p>
 
 
@@ -60,14 +86,43 @@
         
          <article class="a2">       
          <header>
-         <h2>Ataques y Vulnerabilidades</h2>		 
+         <h2>ANALISIS DE RIESGOS</h2>		 
          </header>
-         <figure class="img1"><img src="img/lecturas/concepto1.jpg" width="300" height="300"></figure>
+         <figure class="img1"><img src="img/impacto/imagen1.png" width="400" height="300"></figure>
 	     
-	     <p class="textoc">
-          La seguridad informática consiste en aquellas prácticas que se llevan adelante respecto de un determinado sistema de computación a fin de proteger y resguardar su funcionamiento y la información en él contenida.
-          Se le dice seguridad informática tanto a la investigación como a la ejecución de políticas de protección de datos en ordenadores por parte de un individuo o equipo de expertos en computación.Las prácticas de este tipo de seguridad son diversas, y a menudo consisten en la restricción del acceso al sistema o a partes del sistema. Estas iniciativas buscan preservar la integridad de la información, tanto como su confidencialidad, disponibilidad e irrefutabilidad.En general, cuando se habla de la seguridad en un sistema informático se hace referencia a los activos (recursos del sistema necesarios para que ése funcione), amenaza (evento, individuo o entidad que presenta un riesgo para el sistema), impacto (medición de las consecuencias de la materialización de un riesgo o amenaza), vulnerabilidad (posibilidad de que una amenaza tenga lugar), ataque, desastre o contigencia.
-          </p>
+	     <p class="textod">
+ Un riesgo para un sistema informático está compuesto por la terna de activo, amenaza y
+vulnerabilidad, relacionados según la fórmula riesgo = amenaza + vulnerabilidad. Estos
+conceptos se definen como:</p>
+
+<p class="textod"><strong>Activo:</strong> Sistema o conjunto de sistemas sobre los que se desea calcular el riesgo
+asociado. El activo tendrá un valor que consistirá en la suma de todos los costes
+necesarios para volver a la normalidad ante un ataque a su seguridad. Contarán por
+tanto los costes de adquisición, costes de puesta en marcha, costes de daño de imagen
+ante pérdida o difusión de información confidencial, pago de multas, etc. Para realizar
+un análisis de riesgos exhaustivo se deberán valorar primero los activos adecuadamente
+para poder conocer el valor de su pérdida y así priorizar los más importantes
+en caso de necesidad. Los activos pueden dividirse en tangibles o intangibles: en el
+primer grupo se incluyen los ordenadores, los archivos, el software, etc., y en el
+segundo grupo, la seguridad del personal, la imagen pública, la cartera de clientes, la
+información de configuración, etc.
+</p>
+<p class="textod"><strong>Amenaza:</strong> Las amenazas comprenden todos los agentes que pueden atacar a un sistema.
+Son amenazas por ejemplo las catástrofes naturales, cortes de tensión, virus o los
+hackers. En definitiva, existen múltiples amenazas de las cuales un sistema no se
+puede librar. Cuanto mayor sea su grado de exposición, probablemente poseerá más
+amenazas.
+</p>
+ <p class="textod"><strong>Vulnerabilidad:</strong> Una vulnerabilidad es un punto en el que un recurso es susceptible
+de ataque. Los sistemas poseen un grado de facilidad para ser atacados. Cuantas más
+vulnerabilidades poseen tanto mayor será la probabilidad de que sean atacados con
+éxito. Las vulnerabilidades son paliadas mediante contramedidas. Estos controles
+pueden ser de cinco tipos, según se mostró en la Tabla 1.1. Se pueden implantar a
+tres niveles diferentes: físico, técnico y administrativo.
+A la vista de estos conceptos, un ataque se definiría como la explotación deliberada de
+una vulnerabilidad por un agente amenazador para causar pérdida, daño o revelación de
+activos.</p>
+          
           </article>
         
          </div>

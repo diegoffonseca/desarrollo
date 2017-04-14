@@ -296,9 +296,18 @@ margin-left: 1em;
  
 }
 
+.textoz{
+float: left;
+width: 30em;
+text-align: justify;
+padding: 1em;
+
+}
+
+
 .textoa{
 float: left;
-width: 20em;
+width: 50em;
 text-align: justify;
 padding: 1em;
 
@@ -323,21 +332,29 @@ padding: 5em;
 }
 
 
+.textod{
+
+width: 30em;
+clear: both;
+text-align: justify;
+padding: 2em;
+
+}
 
 .ataques{
  
  width: 100%;
-
-
 }
+
 
 .img1{
 width: 20;
-
-
-
-
 }
+
+.img3{
+width: 20;
+}
+
 
 .imgs{
  

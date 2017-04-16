@@ -61,10 +61,8 @@ color: #000000;
 margin: 0.20em auto;
 text-align: center;
 }
-header
+header,footer
 {
-
-
 background: #FFFFFF; 
 border-radius: 0.5em;
 margin: 0.20em auto;
@@ -73,24 +71,6 @@ padding: 0.20em;
 text-align: center;
 clear: both;
 }
-
-
-footer{
-
-background: #FFFFFF; 
-border-radius: 0.5em;
-margin: 0.20em auto;
-max-width: 1240px;
-padding: 0.20em;
-text-align: center;
-clear: both;
-
-
-}
-
-
-
-
 nav
 {
 width: 1240px;
@@ -296,18 +276,9 @@ margin-left: 1em;
  
 }
 
-.textoz{
-float: left;
-width: 30em;
-text-align: justify;
-padding: 1em;
-
-}
-
-
 .textoa{
 float: left;
-width: 50em;
+width: 20em;
 text-align: justify;
 padding: 1em;
 
@@ -332,29 +303,21 @@ padding: 5em;
 }
 
 
-.textod{
-
-width: 30em;
-clear: both;
-text-align: justify;
-padding: 2em;
-
-}
 
 .ataques{
  
  width: 100%;
-}
 
+
+}
 
 .img1{
 width: 20;
-}
 
-.img3{
-width: 20;
-}
 
+
+
+}
 
 .imgs{
  
@@ -367,26 +330,5 @@ height: 3em;
 
 text-align: justify;
 
-
-}
-
-.logo{
-display: block;
-float: left;
-
-
-}
-
-.logo1{
-display: block;
-margin-left: 10em;
-
-
-
-}
-
-.titp{
-display: block;
-width: 30em;
 
 }

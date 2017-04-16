@@ -332,3 +332,13 @@ text-align: justify;
 
 
 }
+
+
+
+.textoz{
+float: left;
+width: 30em;
+text-align: justify;
+padding: 1em;
+
+}
